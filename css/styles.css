@@ -40,3 +40,18 @@ img {
 	max-width: 100%;
 	border-radius: 5px;
 }
+
+nav {
+    display: flex;
+	gap: 20px;
+}
+
+@media (max-width: 393px) {
+    nav {
+        flex-direction: column;
+    }
+}
+
+iframe {
+    max-width: 100%;
+}
