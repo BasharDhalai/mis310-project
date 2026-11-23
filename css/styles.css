@@ -2,7 +2,7 @@ body {
 	background-color: black;
 	color:white;
 	font-family: Arial, sans-serif;
-	margin: 30px
+	margin: 30px;
 }
 h1{
 	font-size: 50px;
@@ -17,8 +17,8 @@ h1{
 }
 
 h2 {
-	font-size: 28;
-	border-bottom: 2px soilid gray;
+	font-size: 28px;
+	border-bottom: 2px solid gray;
 	padding-bottom: 10px;
 	margin-top: 40px;
 }
@@ -31,7 +31,7 @@ h3{
 
 p {
 	font-size: 16px;
-	line-hight: 1.6;
+	line-height: 1.6;
 
 }
 
@@ -52,6 +52,20 @@ nav {
     }
 }
 
+iframe {
+    max-width: 100%;
+}
+
+.news-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+.news-card {
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 iframe {
     max-width: 100%;
 }
