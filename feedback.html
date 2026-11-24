@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music News Feedback</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<h1>Music News Feedback</h1>
+
+<p>Tell us what music news you would like to see</p>
+<form method="post" action="https://miswebapps.uncw.edu/mis310/form-submit.aspx">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="genre">Favorite Music Genre:</label>
+
+<select id="genre" name="genre" required>
+    <option value="">Choose a genre</option>
+    <option value="rap">Rap</option>
+    <option value="rnb">R&B</option>
+    <option value="pop">Pop</option>
+    <option value="rock">Rock</option>
+    </select>
+    
+    <label for="suggestion">What music news would you like to see?</label>
+<textarea id="suggestion" name="suggestion" rows="4" required></textarea>
+    <button type="submit">Submit Feedback</button>
+
+</select>
+
+</form>
+
+</body>
+    </html>
